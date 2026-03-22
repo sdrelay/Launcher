@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     // Run your custom script/program
-    system("/custom.sh");
+    system("./custom.sh");
     
     // Execute the real TeamSpeak server with all arguments
     execv("./ts3server_real", argv);
